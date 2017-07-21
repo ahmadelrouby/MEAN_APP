@@ -1,0 +1,34 @@
+{
+  "name": "mean_app",
+  "version": "1.0.0",
+  "description": "MEAN STACK Application with Angular 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadelrouby/MEAN_APP.git"
+  },
+  "keywords": [
+    "MEAN",
+    "STACK",
+    "APP",
+    "ANGULAR",
+    "2"
+  ],
+  "author": "Ahmad El Rouby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmadelrouby/MEAN_APP/issues"
+  },
+  "homepage": "https://github.com/ahmadelrouby/MEAN_APP#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "crypto": "0.0.3",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.3",
+    "morgan": "^1.8.2"
+  }
+}
