@@ -18,7 +18,7 @@ var app = express();
 const PORT = process.env.PORT || 8080;
 
 
-app.use(morgan());
+app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname + '/client/dist/')))
