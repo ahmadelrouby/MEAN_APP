@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'APP IS WORKING AFTER UPDATING! ';
+  title = 'Everything changed and now we can rest in peace';
 }
